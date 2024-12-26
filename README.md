@@ -1,3 +1,7 @@
+![CI](https://github.com/Strassee/ahj-ws-chat-frontend/actions/workflows/web.yml/badge.svg)
+
+[On github Pages](https://strassee.github.io/ahj-ws-chat-frontend/)
+
 # Домашнее задание к занятию "8. EventSource, Websockets"
 
 Правила сдачи задания:

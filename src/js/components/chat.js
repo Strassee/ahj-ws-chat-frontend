@@ -5,7 +5,8 @@ export class Chat {
   constructor(user) {
     this.userId = user.id;
     this.userName = user.userName;
-    this.ws = new WebSocket("ws://localhost:7070/ws");
+    // this.ws = new WebSocket("ws://localhost:7070/ws");
+    this.ws = new WebSocket("wss://ahj-ws-chat-backend.onrender.com/");
     this.sendMessage = this.sendMessage.bind(this);
     this.ready = this.ready.bind(this);
     this.cancel = this.cancel.bind(this);

@@ -4,7 +4,8 @@ import { Chat } from "./chat";
 export class Modal {
   constructor(parent, title) {
     this.parent = parent;
-    this.host = "http://localhost:7070/";
+    // this.host = "http://localhost:7070/";
+    this.host = "https://ahj-ws-chat-backend.onrender.com/";
     this.request = new Request(this.host);
     this.title = title;
     this.onSubmit = this.onSubmit.bind(this);
